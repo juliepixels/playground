@@ -1,0 +1,150 @@
+/* Fonts
+font-family: 'Martel', serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Satisfy', cursive;
+*/
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Martel', serif;
+  font-weight: 700;
+}
+
+h1, .h1 {
+  font-size: 2rem;
+}
+
+h2, .h2 {
+  font-size: 1.75rem;
+}
+
+h3, .h3 {
+  font-size: 1.25rem;
+}
+
+.display-1 {
+  font-size: 4rem;
+}
+
+.display-2 {
+  font-size: 3rem;
+}
+
+.cursive {
+  font-family: 'Satisfy', cursive;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+a {
+  color: #cd00b6;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #830074;
+  text-decoration: underline;
+  text-decoration-skip: auto;
+}
+
+.bullets li {
+  list-style: disc;
+  margin-bottom: .5rem;
+  margin-left: 1.25rem;
+}
+
+.header,
+footer {
+  background-color: #cd00b6;
+  color: white;
+  padding: .5rem 4rem;
+}
+
+footer {
+  background-color: #6000ff;
+}
+
+.header-logo {
+  max-height: 100px;
+}
+
+.header-main {
+  background-color: #151a26;
+  background-image: url('../images/milky-way-hero.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 60vw 35vw;
+  grid-column-gap: 5vw;
+  height: 30vh;
+}
+
+.header-main-heading,
+.header-main-button {
+  margin: auto;
+}
+
+.header-main-heading {
+  color: white;
+  text-align: center;
+}
+
+.header-main-button-link {
+  background-color: #cd00b6;
+  border: 0 none;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem 3rem;
+}
+
+.header-main-button-link:hover {
+  background-color: #830074;
+  border: 0 none;
+  color: white;
+  text-decoration: none;
+}
+
+.content-area {
+  border-top: solid 5px #cd0000;
+  display: grid;
+  grid-template-columns: 60vw 35vw;
+  grid-column-gap: 5vw;
+}
+
+.content-area:last-child {
+  border-top: solid 5px #cd00b6;
+}
+
+.content-area > div {
+  padding: 4rem;
+}
+
+.social-media-list {
+  padding: 2rem;
+}
+
+.image-bio {
+  max-height: 100%;
+}
+
+.dark-bg {
+  background-color: #151a26;
+  color: white;
+}
+
+.dark-bg a:hover {
+  color: #ef51dd;
+}
+
+.border-left {
+  border-left: solid 5px purple;
+}
