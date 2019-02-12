@@ -43,6 +43,10 @@ p {
   padding-bottom: 1rem;
 }
 
+img {
+  display: block;
+}
+
 a {
   color: #cd00b6;
   font-weight: 700;
@@ -65,7 +69,7 @@ a:hover {
 footer {
   background-color: #cd00b6;
   color: white;
-  padding: .5rem 4rem;
+  padding: .5rem;
 }
 
 footer {
@@ -73,7 +77,18 @@ footer {
 }
 
 .header-logo {
-  max-height: 100px;
+  max-height: 50px;
+}
+
+@media (min-width: 916px) {
+  .header,
+  footer {
+    padding: .5rem 4rem;
+  }
+
+  .header-logo {
+    max-height: 100px;
+  }
 }
 
 .header-main {
@@ -81,10 +96,15 @@ footer {
   background-image: url('../images/milky-way-hero.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
-  grid-template-columns: 60vw 35vw;
-  grid-column-gap: 5vw;
-  height: 30vh;
+}
+
+@media (min-width: 916px) {
+  .header-main {
+    display: grid;
+    grid-template-columns: 60vw 35vw;
+    grid-column-gap: 5vw;
+    height: 30vh;
+  }
 }
 
 .header-main-heading,
@@ -94,16 +114,26 @@ footer {
 
 .header-main-heading {
   color: white;
+  padding: .5rem;
   text-align: center;
 }
 
 .header-main-button-link {
   background-color: #cd00b6;
   border: 0 none;
-  border-radius: 2px;
   color: white;
+  display: block;
   font-size: 1.5rem;
   padding: 2rem 3rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media (min-width: 916px) {
+  .header-main-button-link {
+    border-radius: 2px;
+    text-decoration: none;
+  }
 }
 
 .header-main-button-link:hover {
@@ -115,9 +145,14 @@ footer {
 
 .content-area {
   border-top: solid 5px #cd0000;
-  display: grid;
-  grid-template-columns: 60vw 35vw;
-  grid-column-gap: 5vw;
+}
+
+@media (min-width: 570px) {
+  .content-area {
+    display: grid;
+    grid-template-columns: 60vw 35vw;
+    grid-column-gap: 5vw;
+  }
 }
 
 .content-area:last-child {
@@ -130,6 +165,23 @@ footer {
 
 .social-media-list {
   padding: 2rem;
+}
+
+.social-media-list ul {
+  margin-top: 1rem;
+}
+
+.social-links {
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 2px;
+  display: inline-block;
+  margin-bottom: .5em;
+  padding: 1em 1.5em;
+}
+
+.social-links:hover {
+  background-color: rgba(0, 0, 0, 1);
+  text-decoration: none;
 }
 
 .image-bio {
