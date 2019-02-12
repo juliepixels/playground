@@ -94,6 +94,7 @@ footer {
 .header-main {
   background-color: #151a26;
   background-image: url('../images/milky-way-hero.jpeg');
+  background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
