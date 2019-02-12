@@ -29,6 +29,13 @@ h3, .h3 {
 
 .display-1 {
   font-size: 4rem;
+  transition: text-shadow 1s;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+.display-1:hover {
+  transition: text-shadow 1s;
+  text-shadow: 2px 2px 0 red, 4px 4px 0 orange, 6px 6px 0 yellow, 8px 8px 0 green, 10px 10px 0 blue, 12px 12px 0 purple, 14px 14px 0 #cd00b6;
 }
 
 .display-2 {
