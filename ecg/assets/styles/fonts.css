@@ -1,0 +1,17 @@
+@import 'fontawesome/regular.css';
+@import 'fontawesome/solid.css';
+
+@font-face {
+  font-family: 'nunito';
+  src: url('../fonts/Nunito_Sans/NunitoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'tinos';
+  src: url('../fonts/Tinos/Tinos-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'abril';
+  src: url('../fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+}

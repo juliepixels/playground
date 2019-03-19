@@ -1,0 +1,46 @@
+.contact-form-checkboxes label {
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 799px) {
+  .contact-form fieldset {
+    width: 80%;
+  }
+
+  .contact-form-checkboxes {
+    columns: 2;
+  }
+  .contact-form-checkboxes {
+    columns: 2;
+  }
+}
+
+fieldset {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+legend {
+  border-top: 1px solid lightgrey;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 2.5rem;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+}
+
+label small {
+  color: grey;
+  float: right;
+}
+
+input:not([type="submit"]):not([type="checkbox"]),
+textarea {
+  font-size: 1.2rem;
+  padding: .5rem;
+  width: 100%;
+}
